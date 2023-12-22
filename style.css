@@ -1,0 +1,120 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif; /* Set the font to Arial */
+  background-color: #000;
+  color: #fff;
+}
+
+/* Top Bar Styles */
+.top-bar {
+  background-color: #8b0000; /* Set the background color to a darker red */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 40px; /* Adjust the size as needed */
+  height: 40px;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  font-size: 24px;
+  color: #fff; /* Set the text color to white */
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.links a {
+	color:#fff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/* Bottom Bar Styles */
+.bottom-bar {
+  background-color: #8b0000; /* Set the background color to a darker red */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon-links {
+  display: flex;
+}
+
+.icon-links a {
+  margin-right: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Main Content Container */
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+/* Miscellaneous Styles */
+h2 {
+  color: #cb0000; /* Set the color to a darker red */
+}
+
+/* Add more styles as needed */
+.contact {
+  width: 30px; /* Set the desired width */
+  height: 30px; /* Set the desired height */
+}
+
+.main-content {
+  display: flex; /* Use flex display for main content */
+}
+
+/* Add styles for the image container */
+.image-collage {
+  flex: 1; /* Make the image collage take up all available space */
+}
+
+.text-content {
+  flex: 1; /* Make the text content take up all available space */
+  padding: 20px; /* Add some padding for spacing */
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow images to wrap to the next line */
+  justify-content: space-around; /* Distribute images evenly */
+  align-items: stretch; /* Stretch images to fill the container height */
+}
+
+.image-container img {
+  width: calc(33% - 10px); /* Adjust the width of each image (50% for two images) */
+  margin: 5px; /* Add margin to create space between images */
+}
