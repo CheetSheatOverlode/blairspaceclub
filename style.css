@@ -58,7 +58,20 @@ body {
   	font-weight: bold;
 }
 
+/* LINKS */
 .links a:link {
+	color:#fff;
+	text-decoration: none;
+}
+.links a:visited {
+	color:#fff;
+	text-decoration: none;
+}
+.links a:hover {
+	color:#fff;
+	text-decoration: none;
+}
+.links a:active {
 	color:#fff;
 	text-decoration: none;
 }
