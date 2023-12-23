@@ -58,24 +58,6 @@ body {
   	font-weight: bold;
 }
 
-/* LINKS */
-.links a:link {
-	color:#fff;
-	text-decoration: none;
-}
-.links a:visited {
-	color:#fff;
-	text-decoration: none;
-}
-.links a:hover {
-	color:#fff;
-	text-decoration: none;
-}
-.links a:active {
-	color:#fff;
-	text-decoration: none;
-}
-
 /* Bottom Bar Styles */
 .bottom-bar {
   	background-color: #8b0000; /* Set the background color to a darker red */
@@ -125,6 +107,14 @@ h2 {
 .text-content {
   	flex: 1; /* Make the text content take up all available space */
   	padding: 20px; /* Add some padding for spacing */
+}
+.text-content a {
+	color: white; /* Set the color to white */
+	text-decoration: none; /* Optional: Remove underlines from links */
+}
+.text-content a:hover {
+	/* Optional: Define styles for link on hover, e.g., change background color */
+	background-color: #ff0000; /* Change the color on hover (replace with your desired color) */
 }
 
 .image-container {
